@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="FirstAutomationTest">
+  <test thread-count="5" parallel="classes" name="GoogleSearch">
+    <classes>
+      <class name="automation.test.TestNGSelenium"/>
+      <class name="automation.test.TestNGSelenium2"/>
+    </classes>
+  </test> <!-- GoogleSearch -->
+</suite> <!-- FirstAutomationTest -->
